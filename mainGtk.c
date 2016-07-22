@@ -70,7 +70,7 @@ void initTreeView(){
 	GtkTreeIter iter;
 
   /* create list store */
-  store = gtk_list_store_new (NUM_COLUMNS,
+  /*store = gtk_list_store_new (NUM_COLUMNS,
                               G_TYPE_BOOLEAN,
                               G_TYPE_UINT,
                               G_TYPE_STRING,
@@ -79,7 +79,7 @@ void initTreeView(){
                               G_TYPE_STRING,
                               G_TYPE_BOOLEAN,
                               G_TYPE_BOOLEAN);
-	
+	*/
 	/* add data to the list store */
 	for (i = 0; i < G_N_ELEMENTS (data); i++){
 		gchar *icon_name;
